@@ -3,7 +3,6 @@ table {
 }
 
 tr {
-  height: 50px;
   border: 1px red solid;
 }
 
@@ -12,16 +11,27 @@ td {
 }
 
 #background {
-  background-image: url("https://placekitten.com/g/200/300");
+  background-image: url("./g974.png");
   background-size: cover;
   background-position: center;
 }
 
-#cell-price {
-  text-align: right;
+#outer-table {
+  height: 400px;
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
 }
 
-#outer-table {
-  height: 500px;
-  width: auto;
+#table-price {
+  position: absolute;
+  right: 10%;
+  top: 10%;
 }
+
+#table-names {
+  position: absolute;
+  top: 22%;
+  width: 60%;
+}
+
