@@ -14,6 +14,14 @@ td {
 #background {
   background-image: url("https://placekitten.com/g/200/300");
   background-size: cover;
+  background-position: center;
+}
+
+#cell-price {
+  text-align: right;
+}
+
+#outer-table {
   height: 500px;
   width: auto;
 }
