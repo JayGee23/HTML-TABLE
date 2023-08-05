@@ -2,14 +2,6 @@ table {
   border: 1px black solid;
 }
 
-tr {
-  border: 1px red solid;
-}
-
-td {
-  border: 1px blue solid;
-}
-
 #background {
   background-image: url("./g974.png");
   background-size: cover;
@@ -18,20 +10,47 @@ td {
 
 #outer-table {
   height: 400px;
-  width: 800px;
+  width: 869px;
   margin: 0 auto;
   position: relative;
 }
 
 #table-price {
   position: absolute;
-  right: 10%;
-  top: 10%;
+  right: 5%;
+  top: 8%;
 }
 
 #table-names {
   position: absolute;
   top: 22%;
   width: 60%;
+  left: 4%;
 }
 
+#table-website {
+  position: absolute;
+  bottom: 6%;
+  left: 8%;
+}
+
+#table-expiry {
+  position: absolute;
+  bottom: 6%;
+  left: 39%
+}
+
+#table-giftcard {
+  position: absolute;
+  bottom: 6%;
+  right: 8%;
+}
+
+.cell-bottom {
+  background-color: aquamarine;
+  width: 150px;
+}
+
+#cell-price {
+  font-size: 65px;
+}
